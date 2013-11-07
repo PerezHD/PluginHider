@@ -35,12 +35,14 @@ public class PluginHiderListener implements Listener {
     
     @EventHandler(priority = EventPriority.LOWEST, ignoreCancelled = true)
     public void onCommandProcess(PlayerCommandPreprocessEvent evt) {
-        String command = evt.getMessage();
+        String commandpre = evt.getMessage();     
+        String[] finalcommand = commandpre.split(" ");
+        String command = finalcommand[0].replaceAll("/", "");      
         Player player = evt.getPlayer();
-
+        
         for (String message : plugin.getConfig().getStringList("blockedcmds")) {
 
-            if (command.contains(message)) {
+            if (command.equalsIgnoreCase(message)) {
                 player.sendMessage(plugin.hidemessage);
                 evt.setCancelled(true);
                 return;

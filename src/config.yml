@@ -3,5 +3,4 @@ hidemessage: '&f[&4ArkhamNetwork&f] &cOur plugins here at ArkhamNetwork are priv
 blockedcmds:
 - '?'
 - 'pl'
-- 'plugin'
 - 'plugins'
