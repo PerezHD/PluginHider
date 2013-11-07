@@ -1,0 +1,7 @@
+# PluginHider by Harry5573 configuration
+hidemessage: '&f[&4ArkhamNetwork&f] &cOur plugins here at ArkhamNetwork are private for our use. 90% of our plugins are custom made by our developers. If you have questions regarding our plugins please contact our head developer Harry5573.'
+blockedcmds:
+- '?'
+- 'pl'
+- 'plugin'
+- 'plugins'

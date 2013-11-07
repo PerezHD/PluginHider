@@ -1,0 +1,6 @@
+name: PluginHider
+description: Stop those pesky plugin stealers
+author: Harry5573
+main: com.harry5573.plugins.PluginHider
+version: 1.0A
+prefix: PluginHiderLog
